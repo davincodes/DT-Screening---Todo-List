@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    color: white;
+
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    
+}
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background:black;
+    padding: 40px 30px 70px;
+    margin: 100px auto 20px;
+}
+.todo-app h2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color:greenyellow;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: black;
+    padding: 10px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    color: black;
+    cursor: pointer;
+    background-color: greenyellow;
+
+}
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    position: relative;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    left: 3px;
+    background-image:url('https://img.icons8.com/fluent-systems-regular/512/FFFFFF/unchecked-circle.png');
+    background-size: cover;
+    background-color: center;
+
+}
+ul li.checked{
+    color: greenyellow;
+    text-decoration: line-through;
+
+}
+ul li.checked::before{
+    background-image: url('https://cdn-icons-png.flaticon.com/512/5610/5610944.png');
+}
+
+
+
+ul li span{
+    position: absolute;
+    right: 70px;
+    top: 5px;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    color: white;
+}
+
+
+
