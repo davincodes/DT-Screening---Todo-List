@@ -21,6 +21,6 @@ This project was completed within **2 hours**. I began by setting up the basic H
 
 ## ⚙️ Challenges Faced
 
-The **hardest part** of the project was implementing the logic in JavaScript. Managing task states (adding, completing, and deleting) and ensuring the UI updated correctly took some careful thought. Breaking the logic down into smaller, manageable functions helped overcome the complexity.
+The **challenging part** of the project was implementing the logic in JavaScript. Managing task (adding and deleting) and ensuring the UI updated correctly.
 
 ---
